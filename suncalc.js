@@ -1,3 +1,7 @@
+/**
+ * 31 March 2019 : Modified to work around a bug with Espruino
+ */
+
 /*
  (c) 2011-2015, Vladimir Agafonkin
  SunCalc is a JavaScript library for calculating sun/moon position and light phases.
