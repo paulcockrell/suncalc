@@ -174,8 +174,8 @@ SunCalc.getTimes = function (date, lat, lng, height) {
         Jrise = Jnoon - (Jset - Jnoon);
 
         // Modified for BangleJS.
-        result[time[1]] = fromJulian(Jrise) - (dayMs / 2);
-        result[time[2]] = fromJulian(Jset) + (dayMs / 2);
+        result[time[1]] = new Date(fromJulian(Jrise) - (dayMs / 2));
+        result[time[2]] = new Date(fromJulian(Jset) + (dayMs / 2));
     }
 
     return result;
